@@ -1,0 +1,20 @@
+.storyReel{
+  display: flex;
+  width: 100%;
+}
+
+// tablet 
+
+@media screen and(max-width:63.9375em) and (min-width: 46.25em) {
+  .storyReel{
+    width: 100%;
+  }
+}
+
+// mobile 
+@media screen and(max-width:46.1875em) {
+  .storyReel{
+    margin-right:40%;
+    width: 100%;
+  }
+}

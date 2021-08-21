@@ -1,0 +1,19 @@
+.widgetsRow{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: small;
+  h4{
+    margin-left: 10px;
+
+  }
+  .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: #2e81f4;
+  }
+}
+.sidebarRow:hover{
+  background-color: lightgray;
+  border-radius: 10px;
+}

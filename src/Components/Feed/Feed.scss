@@ -1,0 +1,31 @@
+.feed{
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+
+// tablet 
+
+@media screen and(max-width:63.9375em) and (min-width: 46.25em) {
+  .feed{
+    width: 100%;
+  }
+}
+
+// mobile 
+@media screen and(max-width:46.1875em) {
+  .feed{
+    width:100%;
+    &__content{
+      width: 95%;
+      margin-right: 37%;
+    }
+  }
+}
+
+
+
